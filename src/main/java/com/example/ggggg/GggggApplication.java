@@ -1,0 +1,13 @@
+package com.example.ggggg;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+ class GggggApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(GggggApplication.class, args);
+    }
+
+}
