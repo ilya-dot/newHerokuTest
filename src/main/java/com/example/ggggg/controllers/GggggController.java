@@ -34,10 +34,8 @@ public class GggggController {
         return hzTable.findAll();
     }
 
-    @GetMapping(value = "/getById/{id}")
-    public Hz getById(@PathVariable int id) throws Exception {
-
-
-        return hzTable.findById(id).get();
+    @GetMapping(value = "/hello")
+    public String hello() throws Exception {
+        return "hello world";
     }
 }
